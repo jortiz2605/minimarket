@@ -1,0 +1,35 @@
+body.login-bg {
+    background: linear-gradient(135deg, #004e92, #000428);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    color: #fff;
+  }
+  
+  .login-card input {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+  }
+  
+  .login-card input::placeholder {
+    color: #e0e0e0;
+  }
+  
+  .login-card button {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .login-card button:hover {
+    background-color: #0056b3;
+  }  
